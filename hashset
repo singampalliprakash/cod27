@@ -1,0 +1,6 @@
+        int[] nums = {4, 2, 3, 4, 2, 5, 6, 3, 7};
+        Set<Integer> linkedHashSet = new LinkedHashSet<>();
+        for (int num : nums) {
+            linkedHashSet.add(num);
+        }
+        System.out.println(linkedHashSet); 
